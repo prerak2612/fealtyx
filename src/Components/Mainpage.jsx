@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Button } from "../Components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "../components/ui/card";
-import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
-import { ScrollArea } from "../components/ui/scroll-area";
+import { Button } from "./ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "./ui/card";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { ScrollArea } from "./ui/scroll-area";
 
 function Mainpage() {
   const [tasks, setTasks] = useState([]);
