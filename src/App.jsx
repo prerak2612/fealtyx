@@ -1,9 +1,10 @@
  import React from 'react'
-import Dashboard from './components/Dashboard'
-import SignIn from './components/SignIn'
-import Mainpage from './components/Mainpage'
+
+import SignIn from './Components/SignIn'
+import Mainpage from './Components/Mainpage'
 import { Outlet, BrowserRouter, RouterProvider, createBrowserRouter } from "react-router-dom";
-import Header from './components/ui/Header';
+import Header from './Components/ui/Header';
+import Dashboard from './Components/Dashboard';
 
  
  function App() {
